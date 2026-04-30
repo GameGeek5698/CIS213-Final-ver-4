@@ -1,0 +1,36 @@
+.detail{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.char{
+    width: 600px;
+    max-width: none;
+    height: auto;
+    display: block;
+}
+
+.cd{
+    flex: 2;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .detail{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    }
+    .char{
+    width: 300px;
+    max-width: none;
+    height: auto;
+    display: block;
+    }
+}

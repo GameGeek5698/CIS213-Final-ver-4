@@ -1,0 +1,52 @@
+.expJob{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pad{
+    padding: 10px;
+}
+
+.guide{
+    width: 300px;
+    max-width: none;
+    height: auto;
+    display: block;
+    padding: 2px;
+}
+
+.map{
+    width: 400px;
+    max-width: none;
+    height: auto;
+    display: block;
+    padding: 2px;
+}
+
+.loc{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .guide{
+    width: 240px;
+    max-width: none;
+    height: auto;
+    display: block;
+    }
+
+    .map{
+    width: 240px;
+    max-width: none;
+    height: auto;
+    display: block;
+    }
+
+}

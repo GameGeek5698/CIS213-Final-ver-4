@@ -1,0 +1,27 @@
+.intro{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.ff{
+    max-width: 90%;
+}
+
+.pad{
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 60px;
+    }
+}
